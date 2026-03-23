@@ -1,0 +1,30 @@
+GET localhost:8080/welcome?name=John
+
+### POST Students
+POST localhost:8080/students
+Content-Type: application/json
+
+[
+  {
+    "reference": "STD24031",
+    "firstName": "Tsiory",
+    "lastName": "Jonathan",
+    "age": 20
+  },
+  {
+    "reference": "STD24032",
+    "firstName": "Rakoto",
+    "lastName": "Arisoa",
+    "age": 20
+  },
+  {
+    "reference": "STD24033",
+    "firstName": "Jon",
+    "lastName": "athan",
+    "age": 50
+  }
+]
+
+### GET Students
+GET localhost:8080/students
+Accept: text/plain
